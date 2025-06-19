@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sub Zero</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #000000, #0a0f2c);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+   <div class="content">
+     .content {
+     padding-top: 180px;
+    }
+
+    .logo {
+      width: 180px;
+      max-width: 90%;
+      margin-bottom: 100px;
+    }
+
+    .subtitle {
+      font-size: 2em;
+      color: #cccccc;
+      margin-bottom: 90px;
+      font-weight: normal;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-bottom: 30px;
+      background-color: #1e3c72;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .social-icon {
+      color: #add8e6;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social-icon img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
+      border-radius: 50%;
+    }
+
+    .social-icon span {
+      font-size: 0.9em;
+    }
+
+    .social-icon:hover {
+      color: #ffffff;
+    }
+
+    .snowflake {
+      position: fixed;
+      top: -10%;
+      color: #4db5ff;
+      font-size: 1.5em;
+      user-select: none;
+      pointer-events: none;
+      animation-name: fall;
+      animation-timing-function: linear;
+    }
+
+    .snowflake:nth-child(n) {
+      animation-duration: 5s;
+      animation-delay: calc(1s * var(--i));
+      left: calc(6% * var(--i));
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0) rotate(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Flocos de neve -->
+  <div class="snowflake" style="--i:1">❄</div>
+  <div class="snowflake" style="--i:2">❄</div>
+  <div class="snowflake" style="--i:3">❄</div>
+  <div class="snowflake" style="--i:4">❄</div>
+  <div class="snowflake" style="--i:5">❄</div>
+  <div class="snowflake" style="--i:6">❄</div>
+  <div class="snowflake" style="--i:7">❄</div>
+  <div class="snowflake" style="--i:8">❄</div>
+  <div class="snowflake" style="--i:1">❄</div>
+  <div class="snowflake" style="--i:2">❄</div>
+  <div class="snowflake" style="--i:3">❄</div>
+  <div class="snowflake" style="--i:4">❄</div>
+  <div class="snowflake" style="--i:5">❄</div>
+  <div class="snowflake" style="--i:6">❄</div>
+  <div class="snowflake" style="--i:7">❄</div>
+  <div class="snowflake" style="--i:8">❄</div>
+  <div class="snowflake" style="--i:1">❄</div>
+  <div class="snowflake" style="--i:2">❄</div>
+  <div class="snowflake" style="--i:3">❄</div>
+  <div class="snowflake" style="--i:4">❄</div>
+  <div class="snowflake" style="--i:5">❄</div>
+  <div class="snowflake" style="--i:6">❄</div>
+  <div class="snowflake" style="--i:7">❄</div>
+  <div class="snowflake" style="--i:8">❄</div>
+
+  <div class="content">
+    <!-- LOGO principal -->
+    <img src="img/logo.png"
+    <class="logo">
+
+    <p class="subtitle">IA ESTABILIZADOR DE MIRA + OTIMIZAÇÃO</p>
+    <a href="#" class="button">ACESSAR SUB ZERO</a>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/murilo.sz1?igsh=MWJ3ZGJiMGRxY3Q4eg==" target="_blank" class="social-icon">
+        <img src="img/instagram.png" alt=>
+        <span>Instagram</span>
+      </a>
+      <a href="https://www.tiktok.com/@xsz_alone?_t=ZM-8xLLOKVuuzl&_r=1" target="_blank" class="social-icon">
+        <img src="img/tiktok.png" alt=>
+        <span>TikTok</span>
+      </a>
+      <a href="https://www.youtube.com/@Szmobilador" target="_blank" class="social-icon">
+        <img src="img/youtube.png" alt=>
+        <span>YouTube</span>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
